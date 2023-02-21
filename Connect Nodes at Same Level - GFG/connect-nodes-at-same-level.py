@@ -15,7 +15,6 @@
 }
 '''
 
-
 class Solution:
     def connect(self, root):
         # code here
@@ -33,6 +32,7 @@ class Solution:
             for i in range(n-1):
                 q[i].nextRight=q[i+1]
         return root
+        
 
 
 
